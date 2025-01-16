@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAKE SHOP NAVBAR</title>
+    <link rel="stylesheet" href="/CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="/CSS/NavbarStyle.css">
+</head>
+
+<body>
+
+    <header class="header" id="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+
+                <button class="navbar-toggler fw-bold text-black" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasMenu" aria-controls="offcanvasMenu" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav nav_top w-100 d-flex justify-content-center align-items-center gap-3">
+                        <li class="nav-item p-2">
+                            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a class="nav-link text-white" href="#">About</a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a class="nav-link text-white" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item drop_bar p-3">
+                            <a href="#" class="text-decoration-none text-white">Pages</a>
+
+                            <div class="extra_dropDown">
+                                <ul class="extra_drop_content list-unstyled">
+                                    <li><a class="dropdown-item text-white" href="#">Shop Detail</a></li>
+                                    <li><a class="dropdown-item text-white" href="#">Shop Cart</a></li>
+                                    <li><a class="dropdown-item text-white" href="#">CheckOut</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a class="nav-link text-white" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a class="nav-link text-white" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title fs-1 fst-italic" id="offcanvasMenuLabel">Cake</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav">
+                <li class="nav-item p-2">
+                    <a class="nav-link text-black" href="#">Home</a>
+                </li>
+                <li class="nav-item p-2">
+                    <a class="nav-link text-black" href="#">About</a>
+                </li>
+                <li class="nav-item p-2">
+                    <a class="nav-link text-black" href="#">Shop</a>
+                </li>
+
+
+                <li class="nav-item dropdown p-2">
+                    <a class="nav-link dropdown-toggle text-black" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Pages
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Shop Detail</a></li>
+                        <li><a class="dropdown-item" href="#">Shopping cart</a></li>
+                        <li><a class="dropdown-item" href="#">Checkoute</a></li>
+                        <li><a class="dropdown-item" href="#">Shop Detail</a></li>
+                        <li><a class="dropdown-item" href="#">Class</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item p-2">
+                    <a class="nav-link text-black" href="#">Blog</a>
+                </li>
+                <li class="nav-item p-2">
+                    <a class="nav-link text-black" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <script src="/JS/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
