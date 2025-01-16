@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-top-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+.header-top-inner .header-left {
+    display: flex;
+    align-items: center;
+}
+.header-top-inner .header-left li {
+    list-style: none;
+    font-size: 14px;
+    color: #111111;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+.header-top-inner .header-left li i {
+    font-size: 8px;
+    padding-left: 8px;
+}
+.header-top-inner .header-left li::after,.header-right li:first-child:after{
+    content: "|";
+    margin-left: 15px;
+    color: #ccc;
+}
+.header-top-inner .header-left li:last-child::after,.header-right li:last-child::after {
+    content: "";
+}
+.header-top-inner .header-left li ul {
+    list-style: none;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #111;
+    padding:5px 10px;
+    border: 1px solid #ccc;
+    z-index: 10;
+    transition: all 2s ease;
+}
+.header-top-inner .header-left li ul li {
+    margin: 0;
+    padding: 5px 10px;
+    color: #fff;
+}
+.header-top-inner .header-left li:hover ul {
+    display: block;
+    top: 24px;
+    opacity: 1;
+    visibility: visible;
+    transition: all, 2s;
+}
+.header-logo {
+    text-align: center;
+}
+.header-logo img {
+    width: 130px;
+    height:50px;
+}
+.header-top-inner .header-right {
+    display: flex;
+    align-items: center;
+}
+.header-top-inner .header-right .header-right-links li, .header-right-cart li{
+    list-style: none;
+    margin-right: 23px;
+    display: flex;
+    align-items: center;
+    font-size:26px;
+}
+.header-top-inner .header-right .header-right-links{
+    display: flex;
+
+}
+.cart-price {
+    color: #111;
+    padding-left:10px;
+    font-size:17px;
+}
+.footerdn .copyright-text p{
+        font-size:18px;
+}
+.footerdn .copyright-text p span{
+    color:rgb(231, 112, 38);
+}
+.footerdn .copyright-widget ul li {
+    list-style: none;
+    font-weight: 500px;
+    color:hsl(0, 1%, 81%)
+}
+.footerdn .copyright-widget ul li:after{
+    content: "|";
+    margin: 0px 10px;
+    color: #ccc;
+}
+.footerdn .copyright-widget ul li:last-child::after {
+    content: "";
+}
