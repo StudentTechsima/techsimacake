@@ -1,0 +1,74 @@
+:root {
+    --primary_color: #f08632;
+    --btn_color: #f08632;
+    --white_color: #fff;
+    --black_color: #000;
+    --para_size: 16px;
+    --link_size: 19px;
+    --heading_size: 32px;
+    --normal_size: 26px;
+    --main_color: #eaeff5;
+}
+
+.navbar {
+    height: 65px;
+    background-color: var(--primary_color);
+}
+
+.collapse {
+    height: 100%;
+}
+
+.nav_top li:hover {
+    background: var(--black_color);
+}
+
+.nav_top li:nth-child(1) {
+    background-color: var(--black_color);
+}
+
+.nav_top a {
+    font-size: var(--link_size);
+}
+
+.offcanvas {
+    transition: all linear .3s !important;
+}
+
+.drop_bar {
+    position: relative;
+}
+
+.extra_dropDown {
+    height: 0;
+    width: 150px;
+    background-color: black;
+    position: absolute;
+    top: 63px;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+    transition: all linear .2s;
+}
+
+.nav_top li:nth-child(4):hover .extra_dropDown,
+.extra_dropDown:hover {
+    height: 140px;
+    opacity: 1;
+    visibility: visible;
+}
+
+.extra_drop_content {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.extra_drop_content li {
+    padding: 10px;
+}
+
+.extra_drop_content a {
+    font-size: var(--para_size);
+}
