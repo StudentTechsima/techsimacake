@@ -18,6 +18,9 @@
 .collapse {
     height: 100%;
 }
+.navbar>.container {
+    justify-content: end;
+}
 
 .nav_top li:hover {
     background: var(--black_color);
