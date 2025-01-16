@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../css/slick.css" rel="stylesheet">
+    <link href="../css/slick-theme.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid p-0 t-s">
+        <div class="col-lg-12 pt-5 ts-heading">
+            <p>Testimonial</p>
+        </div>
+        <div class="col-lg-12 ts-title">
+            <h6>Our client say</h6>
+        </div>
+       
+        <div class="col-lg-12 ts-slider">
+             <!-- <div class="multiple-items"> -->
+            <div class="col-lg-4 ts-card ">
+                    <div class="col-lg-12 card-iem">
+                        <div class="col-lg-3 ">
+                             <img src="../image/adarsh.jpg"  class="card-img">
+                            </div>
+                        <div class="col-lg-6 card-name">
+                            <h5 class="fw-bold t-name">Adarsh Modanwal</h5>
+                            <p class="text-muted">New York</p>
+                        </div>
+                        <div class="col-lg-3"> 
+                            
+                            <span class="text-warning ">★★★★★</span>
+                        </div>
+                    </div>
+                <div class="col-lg-12 card-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua viverra lacus vel facilisis.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 ts-card_two">
+                <div class="col-lg-12 card-iem">
+                    <div class="col-lg-3 ">
+                         <img src="../image/adarsh.jpg"  class="card-img">
+                        </div>
+                    <div class="col-lg-6 card-name">
+                        <h5 class="fw-bold t-name">Adarsh Modanwal</h5>
+                        <p class="text-muted">New York</p>
+                    </div>
+                    <div class="col-lg-3"> 
+                        
+                        <span class="text-warning ">★★★★★</span>
+                    </div>
+                </div>
+            <div class="col-lg-12 card-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua viverra lacus vel facilisis.</p>
+            </div>
+            <!-- </div> -->
+            
+            </div>
+        </div>
+        </div>
+        
+           
+      
+        <script src="../js/jquery-3.7.1.min.js"></script>
+        <script src="../js/slick.min.js"></script>
+        <script src="../js/bootstrap.bundle.min.js"></script>
+        <script>
+            $(document).ready(function(){
+      $('.multiple-items').slick({
+        infinite: true,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        autoplay: true,
+          responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 1
+          }
+        }
+      ]
+      });
+    
+      });
+        </script>
+
+     
+</body>
+
+</html>
