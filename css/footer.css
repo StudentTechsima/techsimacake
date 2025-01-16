@@ -27,6 +27,10 @@
     color: #fff;
 }
 
+.footer-timing ul {
+    padding-left: 0px;
+}
+
 .footer-timing ul li {
     list-style: none;
     font-size: 16px;
@@ -81,7 +85,7 @@
 
 .footer-subs form input {
     height: 50px;
-    width: 100%;
+    width: 80%;
     padding-left: 22px;
     background: rgba(253, 243, 234, 0.2);
     border: none;
@@ -95,7 +99,7 @@
     background: transparent;
     border: none;
     position: absolute;
-    right: 1px;
+    right: 63px;
     top: 50px;
     height: 100%;
     padding: 0 20px;
@@ -138,4 +142,59 @@
 .copyright-privacy li a {
     text-decoration: none;
     color: #a4a4a4;
+}
+
+/* responsive start */
+@media (max-width: 426px) {
+    .footer-container {
+        padding: 15px 0;
+    }
+
+    .footer-faci,
+    .footer-subs {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .footer-timing {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 20px;
+        padding-left: 0px;
+    }
+
+    .footer-timing ul {
+        padding: 0;
+    }
+
+    .footer-timing h6 {
+        padding-left: 0px;
+    }
+
+    .footer-faci .footer-social {
+        justify-content: space-evenly;
+        margin-bottom: 30px;
+    }
+
+    .footer-bottom .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-subs form button {
+        right: 31px;
+    }
+
+    .copyright-privacy ul {
+        font-size: 14px;
+    }
+
+    .footer-subs form {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-subs input {
+        width: 100%;
+    }
 }
