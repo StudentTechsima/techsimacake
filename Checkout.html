@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/Checkout.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    <div class="container">
+         <h1 class="Checkout-title py-5 " > Checkout</h1>
+         <hr>
+
+         <p>Have a coupon? <a href="#" class="check-link">Click here to enter your code </a></p>
+    </div>
+</style>
+</head>
+<body>
+<div class="form-container">
+    <h4><strong>BILLING DETAILS</strong></h4>
+    <form>
+        <div class="mb-3">
+            <label class="form-label">First Name*</label>
+            <input type="text" class="form-control" placeholder="Enter First Name">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Last Name*</label>
+            <input type="text" class="form-control" placeholder="Enter Last Name">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Country*</label>
+            <input type="text" class="form-control" placeholder="Enter Country">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Address*</label>
+            <input type="text" class="form-control" placeholder="Street Address">
+        </div>
+        <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Apartment, suite, unit etc (optional)">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Town/City*</label>
+            <input type="text" class="form-control" placeholder="Enter Town/City">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Country/state</label>
+            <input type="text" class="form-control" placeholder="Enter Town/City">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Postcode/ZIP*</label>
+            <input type="text" class="form-control" placeholder="Enter Town/City">
+        </div>
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="createAccount">
+            <label class="form-check-label" for="createAccount">Create an account?</label>
+        </div>
+        <p>Create an account by entering the information below. If you are a returning customer please login at the top of the page.</p>
+        <div class="mb-3">
+            <label class="form-label">Account Password*</label>
+            <input type="password" class="form-control" placeholder="Enter Password">
+        </div>
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="orderNote">
+            <label class="form-check-label" for="orderNote">Note about your order, e.g., special note for delivery</label>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Order notes*</label>
+            <textarea class="form-control" rows="3" placeholder="Notes about your order, e.g. special notes for delivery."></textarea>
+        </div>
+    </form>
+    <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="card">
+              <div class="card-body">
+                <ul class="list-group">
+                  <li class="list-group-item">02. German chocolate <span class="float-right" >$170.00</span></li>
+                  <li class="list-group-item">03. Sweet autumn <span class="float-right">$170.00</span></li>
+                  <li class="list-group-item">04. Gluten free mini dozen <span class="float-right">$110.00</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <table class="table">
+                  <tr>
+                    <td>Subtotal</td>
+                    <td class="text-right">$750.99</td>
+                  </tr>
+                  <tr>
+                    <td>Total</td>
+                    <td class="text-right">$750.99</td>
+                  </tr>
+                </table>
+                <div class="form-group">
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="createAccount">
+                    <label class="form-check-label" for="createAccount">Create an account?</label>
+                  </div>
+                  <small class="text-muted">Lorem ipsum dolor sit amet, consectetur adip elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</small>
+                </div>
+                <div class="form-check">
+                  <input type="radio" class="form-check-input" id="checkPayment" name="payment">
+                  <label class="form-check-label" for="checkPayment">Check Payment</label>
+                </div>
+                <div class="form-check">
+                  <input type="radio" class="form-check-input" id="paypal" name="payment">
+                  <label class="form-check-label" for="paypal">Paypal</label>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block mt-3">PLACE ORDER</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+</body>  
+</html>
