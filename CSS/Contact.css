@@ -1,0 +1,154 @@
+:root {
+    --primary_color: #f08632;
+    --btn_color: #f08632;
+    --white_color: #fff;
+    --black_color: #000;
+    --para_size: 16px;
+    --link_size: 19px;
+    --heading_size: 32px;
+    --normal_size: 26px;
+    --main_color: #eaeff5;
+    --para_color: #959595;
+}
+
+
+.map_section_div {
+    height: 280px;
+    position: relative;
+}
+
+.map_upper_div {
+    height: 200px;
+    width: 390px;
+    position: absolute;
+    top: 20px;
+    background-color: var(--white_color);
+    left: 390px;
+}
+
+.map_upper_div span,
+p,
+a {
+    color: var(--para_color);
+    font-weight: 400;
+}
+
+.contact_part_detail .container {
+    padding-bottom: 50px;
+    border-bottom: 1px solid var(--para_color);
+}
+
+.contact_part_detail {
+    padding: 100px 0px;
+}
+
+.contact_part_detail .row div {
+    height: 220px;
+}
+
+.contact_part_detail .row div h6 {
+    font-size: var(--para_size);
+}
+
+.contact_form_sect input {
+    height: 50px;
+    outline: transparent;
+}
+
+.contact_form_sect button {
+    background-color: var(--black_color);
+    height: 50px;
+    width: 140px;
+}
+
+.contact_form_sect .form-control {
+    font-size: 14px;
+    resize: none;
+}
+
+.contact_form_sect .form-control::placeholder {
+    color: var(--para_color);
+
+}
+.contact_form_sect input:focus{
+    border: 1px solid var(--primary_color);
+    box-shadow: none;
+}
+.contact_form_sect textarea:focus{
+    border: 1px solid var(--primary_color);
+    box-shadow: none;
+}
+
+@media (max-width:1200px) {
+    .map_upper_div {
+        left: 280px;
+    }
+}
+
+@media (max-width:992px) {
+    .map_upper_div {
+        left: 170px;
+    }
+}
+
+@media (max-width:768px) {
+    .map_upper_div {
+        left: 155px;
+    }
+}
+
+@media (max-width:535px) {
+    .map_upper_div {
+        left: 60px;
+    }
+}
+@media (max-width:480px) {
+    .map_upper_div {
+        left: 50px;
+    }
+}
+
+@media (max-width:460px) {
+    .map_upper_div {
+        left: 30px;
+    }
+}
+
+@media (max-width:440px) {
+    .map_upper_div {
+        height: 150px;
+        width: 320px;
+        left: 60px;
+    }
+    .map_upper_div span{
+        padding: 0px 10px;
+    }
+}
+
+@media (max-width:410px) {
+    .map_upper_div {
+        left: 30px;
+    }
+}
+
+@media (max-width:370px) {
+    .map_upper_div {
+        left: 20px;
+    }
+}
+@media (max-width:350px) {
+    .map_upper_div {
+        width: 280px;
+        left: 30px;
+    }
+}
+@media (max-width:340px) {
+    .map_upper_div {
+        left: 30px;
+    }
+}
+@media (max-width:320px) {
+    .map_upper_div {
+        left: 20px;
+    }
+}
