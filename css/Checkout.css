@@ -1,0 +1,50 @@
+
+body{
+    background-color: #f8f9fa;
+    /* display: flex; */
+    justify-content: center;
+     align-items:center;
+     min-height: 100px;
+
+}
+.container{
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1) ;
+   
+}
+ .Checkout-title {
+    font-size: 4rem;
+    font-weight: 20px;
+   font-style: italic;
+   position:relative;
+   right: 39%;
+   
+
+}
+.check-link {
+    color: #1574b4;
+    text-decoration: none;
+    position: absolute;
+    left: 8%;
+}
+body {
+    background-color: #f8f9fa;
+}
+
+.form-container {
+   max-width: 60%;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+     position: absolute;
+    left: 5%;
+} 
+.form-container h4 {
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
