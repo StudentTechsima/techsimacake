@@ -1,0 +1,35 @@
+@font-face {
+    font-family:Montserrat ;
+    src: url(../Montserrat/static/Montserrat-Light.ttf);
+}
+.description_text p {
+    color: #444444;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    font-family: "Montserrat";
+}
+.description .nav-link {
+    color:#444444;
+    font-family: "Montserrat";
+    position: relative;
+}
+.description .nav-link::after{
+    content: "";
+    position: absolute;
+    height: 18px;
+    right: 0px;
+    bottom: 10px;
+    border: 1px solid #7b7d72;
+}
+.description .nav-pills .nav-link.active, .nav-pills .show> .nav-link{
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid;
+    border-radius: 0;
+    gap:9px;
+    color:#000;
+}
+@media (max-width:425px){
+    
+}
